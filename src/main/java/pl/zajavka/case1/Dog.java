@@ -5,6 +5,10 @@ public class Dog extends Animal {
 
     @Override
     public String whatIsYourName() {
-        return "My name is Doggo";
+        return "My name is Dog";
+    }
+
+    public void sniff() {
+        System.out.println("I'm soo sniffing!");
     }
 }
